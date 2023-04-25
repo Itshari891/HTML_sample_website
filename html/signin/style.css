@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/cover.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-color: #f6f6f6;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:#d4d4d4;
+}
+
+.nav1{
+    flex: 1;
+    text-align: right;
+    margin-right: 1.5em;
+    text-decoration: none;
+}
+
+.navli{
+    list-style:none;
+    display: inline-block;
+    margin-right: 2em;
+    cursor: pointer;
+    font-size: .83em;
+    text-decoration: none;
+}
+.navli a{
+    text-decoration: none;
+    color: black;
+}
+.navli:hover{
+    opacity: .6;
+}
+.navbar2{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:3.5em;
+    padding-left: 2em;
+    margin-top: .8em;
+}
+.nav2{
+    flex: 1;
+    text-align: center;
+    margin-right: 3em;
+    margin-top: 1em;
+}
+.nav2li{
+    display: inline-block;
+   margin-right: 1.7em;
+}
+.col{
+    background-color:#aeaeae;
+    padding: 70px 30px 70px 30px;
+    border-radius: 5px;
+    
+}
+.row{
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    text-align: center;
+}
+.col form div input{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style:hidden;
+    padding-left: 3px;
+}
+.col form button{
+    
+    background-color: rgb(0, 0, 0);
+    border-style: hidden;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.col h3{
+    text-align: center;
+    align-items: baseline;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 30px;
+}
+footer{
+    background-color: #939393;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}

@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/imani-bahati-LxVxPA1LOVM-unsplash.jpg);
+    box-sizing: border-box;
+    background-size: contain;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:#d4d4d4;
+}
+
+.nav1{
+    flex: 1;
+    text-align: right;
+    margin-right: 1.5em;
+    text-decoration: none;
+}
+
+.navli{
+    list-style:none;
+    display: inline-block;
+    margin-right: 2em;
+    cursor: pointer;
+    font-size: .83em;
+    text-decoration: none;
+}
+.navli a{
+    text-decoration: none;
+    color: black;
+}
+.navli:hover{
+    opacity: .6;
+}
+.navbar2{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:3.5em;
+    padding-left: 2em;
+    margin-top: .8em;
+}
+.nav2{
+    flex: 1;
+    text-align: center;
+    margin-right: 3em;
+    margin-top: 1em;
+}
+.nav2li{
+    display: inline-block;
+   margin-right: 1.7em;
+}
+.col{
+    background-color:#aeaeae;
+    padding: 40px 30px 40px 30px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    
+}
+.row{
+    margin: 300px;
+    background-color:#aeaeae;
+    display: flex;
+    border-radius: 5px 5px 0 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.col form div input{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style:hidden;
+    padding-left: 3px;
+    
+}
+.row2 button{
+  
+    background-color: rgb(0, 0, 0);
+    border-style: hidden;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+    
+    
+}
+.row2 button:hover{
+    background-color: #939393;
+}
+.col h3{
+    text-align: center;
+    align-items: baseline;
+    padding-bottom: 30px;
+}
+select{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 10px;
+}
+.col2{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.col2 form div input{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-style:hidden;
+    padding-left: 3px;
+    
+}
+.col2{
+    text-align: center;
+}
+.row2{
+    text-align: center;
+    margin: 300px;
+    background-color:#aeaeae;
+    display: flex;
+    border-radius: 0px 0px 5px 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #939393;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+@media screen and (max-width: 800px) {
+    .row{
+        margin: 5%;
+        text-align: center;
+        display: block;
+        margin-bottom: 30px;
+        background-color: white;
+        
+    }
+    .col2{
+        
+        margin: 0%;
+        background-color: white;
+        padding: 0%;
+    }
+    .col{
+        background-color: white;
+        display: block;
+        margin: 0%;
+        
+    }
+    .container{
+        background: none;
+    }
+    input{
+        background-color: #c4c4c4;
+    }
+    button{
+        display: block;
+        margin-right: 250px;
+        width: 190px;
+        height: 50px;
+    }
+    
+  }
